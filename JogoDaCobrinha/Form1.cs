@@ -41,5 +41,10 @@ namespace JogoDaCobrinha
                 Game.Arrow = e.KeyCode;
             }
         }
+
+        private void sobreOGameToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Criado por Miller Vasco - @vascodeveloper");
+        }
     }
 }

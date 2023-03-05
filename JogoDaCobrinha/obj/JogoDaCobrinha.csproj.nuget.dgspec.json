@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Meus Arquivos\\Meus Games\\JogoDaCobrinha\\JogoDaCobrinha\\JogoDaCobrinha.csproj": {}
+    "E:\\Meus Arquivos\\Meus Videos\\Jogo_Da_Cobrinha\\JogoDaCobrinha\\JogoDaCobrinha.csproj": {}
   },
   "projects": {
-    "E:\\Meus Arquivos\\Meus Games\\JogoDaCobrinha\\JogoDaCobrinha\\JogoDaCobrinha.csproj": {
+    "E:\\Meus Arquivos\\Meus Videos\\Jogo_Da_Cobrinha\\JogoDaCobrinha\\JogoDaCobrinha.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Meus Arquivos\\Meus Games\\JogoDaCobrinha\\JogoDaCobrinha\\JogoDaCobrinha.csproj",
+        "projectUniqueName": "E:\\Meus Arquivos\\Meus Videos\\Jogo_Da_Cobrinha\\JogoDaCobrinha\\JogoDaCobrinha.csproj",
         "projectName": "JogoDaCobrinha",
-        "projectPath": "E:\\Meus Arquivos\\Meus Games\\JogoDaCobrinha\\JogoDaCobrinha\\JogoDaCobrinha.csproj",
+        "projectPath": "E:\\Meus Arquivos\\Meus Videos\\Jogo_Da_Cobrinha\\JogoDaCobrinha\\JogoDaCobrinha.csproj",
         "packagesPath": "C:\\Users\\mill3\\.nuget\\packages\\",
-        "outputPath": "E:\\Meus Arquivos\\Meus Games\\JogoDaCobrinha\\JogoDaCobrinha\\obj\\",
+        "outputPath": "E:\\Meus Arquivos\\Meus Videos\\Jogo_Da_Cobrinha\\JogoDaCobrinha\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mill3\\AppData\\Roaming\\NuGet\\NuGet.Config",

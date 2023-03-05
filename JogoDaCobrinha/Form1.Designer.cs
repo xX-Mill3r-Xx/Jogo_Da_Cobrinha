@@ -36,6 +36,8 @@
             this.iniciarGameToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.Frame = new System.Windows.Forms.Timer(this.components);
+            this.sobreToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sobreOGameToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menu_Bar.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -61,7 +63,8 @@
             // 
             this.menu_Bar.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menu_Bar.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.menuToolStripMenuItem});
+            this.menuToolStripMenuItem,
+            this.sobreToolStripMenuItem});
             this.menu_Bar.Location = new System.Drawing.Point(0, 0);
             this.menu_Bar.Name = "menu_Bar";
             this.menu_Bar.Size = new System.Drawing.Size(448, 28);
@@ -94,6 +97,21 @@
             // Frame
             // 
             this.Frame.Tick += new System.EventHandler(this.Frame_Tick);
+            // 
+            // sobreToolStripMenuItem
+            // 
+            this.sobreToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.sobreOGameToolStripMenuItem});
+            this.sobreToolStripMenuItem.Name = "sobreToolStripMenuItem";
+            this.sobreToolStripMenuItem.Size = new System.Drawing.Size(62, 24);
+            this.sobreToolStripMenuItem.Text = "Sobre";
+            // 
+            // sobreOGameToolStripMenuItem
+            // 
+            this.sobreOGameToolStripMenuItem.Name = "sobreOGameToolStripMenuItem";
+            this.sobreOGameToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.sobreOGameToolStripMenuItem.Text = "Sobre o game";
+            this.sobreOGameToolStripMenuItem.Click += new System.EventHandler(this.sobreOGameToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -129,5 +147,7 @@
         private ToolStripMenuItem iniciarGameToolStripMenuItem;
         private ToolStripMenuItem sairToolStripMenuItem;
         private System.Windows.Forms.Timer Frame;
+        private ToolStripMenuItem sobreToolStripMenuItem;
+        private ToolStripMenuItem sobreOGameToolStripMenuItem;
     }
 }

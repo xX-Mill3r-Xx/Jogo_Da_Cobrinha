@@ -78,7 +78,7 @@ namespace JogoDaCobrinha
             }
 
             bitmapGraphic.Clear(Color.White);
-            bitmapGraphic.DrawImage(Properties.Resources.R, (Food.Location.X*15), (Food.Location.Y * 15), 15,15);
+            bitmapGraphic.DrawImage(Properties.Resources.apple, (Food.Location.X*15), (Food.Location.Y * 15), 15,15);
             bool gameOver = false;
 
             for (int i = 0; i < Snake.Length; i++)
